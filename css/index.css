@@ -1,0 +1,25 @@
+#men{
+    display: none;
+}
+#men:target{
+    display: flex;
+}
+#men:target #container1,#container2{
+    display: none;
+}
+#container1{
+    display: flex;
+    margin: 0 auto;
+}
+#container2{
+    display: flex;
+}
+#container2>div{
+    width: 340px;
+    height: 500px;
+}
+main>div>div img{
+    margin: 30px;
+    width: 279px;
+    height: 400px;
+}

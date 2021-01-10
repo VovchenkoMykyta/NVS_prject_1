@@ -1,0 +1,66 @@
+#dress{
+    display: none;
+}
+#dress:target{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+#women_shirt{
+    display: none;
+}
+#women_shirt:target{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+#women_skirt{
+    display: none;
+}
+#women_skirt:target{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+#women_pans{
+    display: none;
+}
+#women_pans:target{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+#women_jeans{
+    display: none;
+}
+#women_jeans:target{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+#women_sneakers{
+    display: none;
+}
+#women_sneakers:target{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+#women_shoes{
+    display: none;
+}
+#women_shoes:target{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+#women_boots{
+    display: none;
+}
+#women_boots:target{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}

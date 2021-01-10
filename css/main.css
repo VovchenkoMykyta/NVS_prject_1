@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    min-height: 45px;
+    background-color: black;
+}
+.header{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    color: #ffffff;
+}
+header input{
+    height: 20px;
+}
+header a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.header>a:hover{
+    text-decoration: none;
+}
+#flex_hrefs{
+    display: flex;
+    justify-content: space-around;
+    min-width: 600px;
+}
+.header_hrefs{
+    text-align: center;
+    border-right: 2px solid #7f7e83;
+    height: 22px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+nav{
+    padding-top: 25px;
+    background-color: black;
+    list-style-type: none;
+    height: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.jackets:hover .sub_menu_coat{
+    list-style-type: none;
+    text-align: center;
+    display: block;
+}
+.sub_menu_coat{
+    display: none;
+}
+.sub_menu_buts{
+    list-style-type: none;
+    display: none;
+}
+.buts{
+    margin: 10px;
+}
+hr{
+    color: #7f7e83;
+    size: 2px;
+}
+.buts:hover .sub_menu_buts{
+    display: block;
+}
+.main_menu{
+    position: relative;
+    display: flex;
+    list-style-type: none;
+}
+.main_menu li{
+    margin-right: 8.5%;
+    margin-left: 6.5%;
+}
+.sub_menu{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 200px;
+    list-style-type: none;
+    border: 1px solid #8a898e;
+}
+li{
+    list-style-type: none;
+}
+.sub_menu a{
+    color: black;
+}
+.men:hover .sub_menu{
+    display: block;
+}
+.women:hover .sub_menu{
+    display: block;
+}
+.girls:hover .sub_menu{
+    display: block;
+}
+.boys:hover .sub_menu{
+    display: block;
+}
+.discount:hover .sub_menu {
+    display: block;
+}
+main{
+    width: 70%;
+    margin: 0 auto;
+    min-height: 69.5vh;
+}
+figcaption{
+    text-align: center;
+}
+footer{
+    display: flex;
+    align-items: flex-end;
+    background-color: black;
+    color: #ffffff;
+    min-height: 3%;
+    padding: 20px;
+}
+.contacts{
+    display: block;
+}
+.studio{
+    margin-left: 30%;
+}
