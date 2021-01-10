@@ -1,0 +1,60 @@
+#container_T-shirt {
+    display: none;
+}
+main img{
+    width: 279px;
+    height: 400px
+}
+#container_T-shirt:target{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+#container_shorts {
+    display: none;
+}
+#container_shorts:target{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+#container_pants {
+    display: none;
+}
+#container_pants:target{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+#container_jeans {
+    display: none;
+}
+#container_jeans:target{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+#container_snikersy_boy {
+    display: none;
+}
+#container_snikersy_boy:target{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+#container_shoes_boy {
+    display: none;
+}
+#container_shoes_boy:target{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+#container_boots_boy {
+    display: none;
+}
+#container_boots_boy:target{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}

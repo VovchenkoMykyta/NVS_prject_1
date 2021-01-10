@@ -1,0 +1,21 @@
+.header>a:hover{
+    text-decoration: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12%;
+    line-height: 30px;
+}
+#login{
+    margin-left: 6px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+}
+.btn>input{
+    margin-left: 20px;
+    cursor: pointer;
+}
